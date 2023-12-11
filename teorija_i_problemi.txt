@@ -1,0 +1,26 @@
+############GRADIJENTNE#########
+1.njutn rapson problem:
+	pocetna tacka i dvostruki izvod
+2.metoda secice problem:
+sporiji od njutn rapson
+###############METODE DIREKTNOG PRETRAZIVANJA#################
+Funkcija mora da bude unimodalna(na intervalu na kom pretrazujemo
+imamo jasno definisan optimum),definisana na celom intervalu
+ali ne mora da bude neprekidna, ne treba nam izvod nego interval
+koji skracujemo
+1.Fibonacijev problem:
+mora unapred da se odredi broj iteracija sto garantuje da tacka
+lezi u okviru zeljenog intervala
+2.Zlatni presek:
+treba manje iteracija nego fibonacijev
+####################GRADIJENTNI METODI##########################
+Funkcija mora da bude diferencijabilna, koriste se kad ima vise promenljivih
+1.Metod najbrzeg pada:moze da bude pogresan rezultat ?
+2.Metod sa momentom problem:
+
+3. Adagrad algoritam (omogucava da brzina adaptacije bude drugacija za svaku osu)
+
+####################################################
+Relativna greska se ne moze uvek odrediti ( deljenje sa nulom)
+Kod apsolutne greske kad kazemo npr greska je 5 ili greska je 3 ne znamo dal je to
+mnogo ili malo, dok nam relativna greska kaze npr greska je 50% sto je puno
